@@ -69,12 +69,12 @@
       
          <div class = "px-4 py-2 lg:pb-3 mt-2 text-xl font-bold bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 lg:mt-0 lg:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline"x-data="{open: false}">
         
-            <a target = "_blank"  x-on:click.prevent="open = true" class="" href="">Send us a Text</a>
+            <a target = "_blank"  x-on:click.prevent="open = true" class="" href="">Get a Quote Now!</a>
         
       
         <div x-show.transition.opacity="open" class="p-4 fixed flex justify-center items-center inset-0 bg-black text-black bg-opacity-75 z-50">
                 <form x-on:click.away="open = false" x-show.transition="open" class="max-w-3xl max-h-full h-auto p-8 py-10 overflow-auto bg-white border-b-2 border-gray-300 rounded-lg shadow-2xl px-7 mt-16 md:mt-0 md:w-2/5">
-                        <h3 class="mb-6 text-2xl font-medium text-black text-center">Send us a Text</h3>
+                        <h3 class="mb-6 text-2xl font-medium text-black text-center">Get a Quote Now!</h3>
                         <div class="block mb-4 border border-gray-200 rounded-lg">
                             <input type="text" name="first-name" id="2-first-name" class="block w-full px-4 py-3 border-2 border-transparent rounded-lg focus:border-blue-500 focus:outline-none" placeholder="First Name">
                         </div>
@@ -122,11 +122,11 @@
             
             <div class="flex text-center justify-center items-center" x-data="{open: false}">
                 <button type="button" x-on:click.prevent="open = true" class="inline-flex items-center justify-center h-24 px-6 lg:mr-6 tracking-wide transition duration-200 rounded-lg focus:shadow-outline focus:outline-none  bg-gray-200 text-black hover:bg-white hover:text-gray-400 ">
-                    <h5 class="text-3xl font-extrabold">Send us a Text</h5> 
+                    <h5 class="text-3xl font-extrabold">Get a Quote Now!</h5> 
                 </button>
                 <div x-show.transition.opacity="open" class="p-4 fixed flex justify-center items-center inset-0 bg-black bg-opacity-75 z-50">
                     <form x-on:click.away="open = false" x-show.transition="open" class=" text-black max-w-3xl max-h-full h-auto p-8 py-10 overflow-auto bg-white border-b-2 border-gray-300 rounded-lg shadow-2xl px-7 mt-16 md:mt-0 md:w-2/5">
-                            <h3 class="mb-6 text-2xl font-medium text-black text-center">Send us a Text</h3>
+                            <h3 class="mb-6 text-2xl font-medium text-black text-center">Get a Quote Now!</h3>
                         <div class="block mb-4 border border-gray-200 rounded-lg">
                             <input type="text" name="first-name" id="1-first-name" class="block w-full px-4 py-3 border-2 border-transparent rounded-lg focus:border-blue-500 focus:outline-none" placeholder="First Name">
                         </div>
@@ -308,10 +308,10 @@
                     <div class="box-border flex flex-col items-center  h-full px-2 py-4 md:py-8 mx-4 leading-6 text-center border-solid ">
                         
                         <div class="md:mt-6 font-sans text-center border-0 border-gray-200 ">
-                            <h3 class="box-border text-xl font-bold leading-none tracking-wider border-solid  text-gray-400  ">Window Cleaning</h3>
+                            <h3 class="box-border text-xl font-bold leading-none tracking-wider border-solid  text-gray-400  ">Hardscape & Deck Cleaning</h3>
                             <p
                                 class="box-border mx-0 mt-2 mb-0 font-normal leading-snug text-center border-solid ">
-                                Beautiful windows so clean you will be able to see your reflection. Streak-free, polished, and shining - we deliver the highest quality.
+                                Pool decks, fountains, statues, and more, we'll leave them better than when they were originally made.
                             </p>
                         </div>
                     </div>
@@ -321,10 +321,10 @@
                     <div class="box-border flex flex-col items-center  h-full px-2 py-4 md:py-8 mx-4 leading-6 text-center border-solid ">
                         
                         <div class="md:mt-6 font-sans text-center border-0 border-gray-200 ">
-                            <h3 class="box-border text-xl font-bold leading-none tracking-wider border-solid  text-gray-400  ">Hardscape & Deck Cleaning</h3>
+                            <h3 class="box-border text-xl font-bold leading-none tracking-wider border-solid  text-gray-400  ">Window Cleaning</h3>
                             <p
                                 class="box-border mx-0 mt-2 mb-0 font-normal leading-snug text-center border-solid ">
-                                Pool decks, fountains, statues, and more, we'll leave them better than when they were originally made.
+                                Beautiful windows so clean you will be able to see your reflection. Streak-free, polished, and shining - we deliver the highest quality.
                             </p>
                         </div>
                     </div>
@@ -447,47 +447,62 @@
                                         
                             
                                   
-                            <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="open = true" ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/YU15VG1A7YBBM5EBOC2U0E28C3SR05L92ERH8EOL.png"  alt = "Photo number 1 of JB Applewhite&#x27;s Pressure Washing&#x27;s best work performing a Painting Preparation job"   loading="lazy" ></div>
+                            <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="open = true" ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/AOHSE5ZHENCSCBBJCB8CKRELENUZ9D5OMFKHMPK2.png"  alt = "Photo number 1 of JB Applewhite&#x27;s Pressure Washing&#x27;s best work performing a Driveway &amp; Sidewalk Cleaning job"   loading="lazy" ></div>
                         
                                         
                             
                                   
-                            <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="open = true" ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/4ZT88QNDZCH3MXGP3TV14T3SYTDFE4E7VIMLD4JH.png"  alt = "Photo number 2 of JB Applewhite&#x27;s Pressure Washing&#x27;s best work performing a null job"   loading="lazy" ></div>
+                            <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="open = true" ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/EOIKP1IDYRCFD6ZA4Y3SL573ZIIV3L6V3MK993KI.png"  alt = "Photo number 2 of JB Applewhite&#x27;s Pressure Washing&#x27;s best work performing a Home Softwash job"   loading="lazy" ></div>
                         
                                         
                             
                                   
-                            <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="open = true" ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/FG0UN5MU71H31JMOHV82HMAFJZ5JEAKG87CP4GKO.png"  alt = "Photo number 3 of JB Applewhite&#x27;s Pressure Washing&#x27;s best work performing a Painting Preparation job"   loading="lazy" ></div>
+                            <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="open = true" ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/XCJAT7WZQR4HFXJV82LQYYJ5MLIJ3D5GDOB0IJWX.png"  alt = "Photo number 3 of JB Applewhite&#x27;s Pressure Washing&#x27;s best work performing a Home Softwash job"   loading="lazy" ></div>
                         
                                         
                             
                                   
-                            <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="open = true" ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/ZAA042ZTISD5JBHA7O18Y7RE4X4X29SUL0OVDSFT.png"  alt = "Photo number 4 of JB Applewhite&#x27;s Pressure Washing&#x27;s best work performing a null job"   loading="lazy" ></div>
+                            <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="open = true" ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/YU15VG1A7YBBM5EBOC2U0E28C3SR05L92ERH8EOL.png"  alt = "Photo number 4 of JB Applewhite&#x27;s Pressure Washing&#x27;s best work performing a Painting Preparation job"   loading="lazy" ></div>
                         
                                         
                             
                                   
-                            <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="open = true" ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/2TTFTXBHAQ93VJ2CAUO85PQJ6QYN6FYW7MU1141D.png"  alt = "Photo number 5 of JB Applewhite&#x27;s Pressure Washing&#x27;s best work performing a null job"   loading="lazy" ></div>
+                            <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="open = true" ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/4ZT88QNDZCH3MXGP3TV14T3SYTDFE4E7VIMLD4JH.png"  alt = "Photo number 5 of JB Applewhite&#x27;s Pressure Washing&#x27;s best work performing a null job"   loading="lazy" ></div>
                         
                                         
                             
                                   
-                            <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="open = true" ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/2HYTINJPTO4JHNH5HI0E825FYAWER111VSA8NCVW.png"  alt = "Photo number 6 of JB Applewhite&#x27;s Pressure Washing&#x27;s best work performing a null job"   loading="lazy" ></div>
+                            <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="open = true" ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/FG0UN5MU71H31JMOHV82HMAFJZ5JEAKG87CP4GKO.png"  alt = "Photo number 6 of JB Applewhite&#x27;s Pressure Washing&#x27;s best work performing a Painting Preparation job"   loading="lazy" ></div>
                         
                                         
                             
                                   
-                            <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="open = true" ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/3UPSIWF32YH72F7RATUBWLALFX23O6HJ5OOIG4J1.png"  alt = "Photo number 7 of JB Applewhite&#x27;s Pressure Washing&#x27;s best work performing a Retaining Walls job"   loading="lazy" ></div>
+                            <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="open = true" ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/ZAA042ZTISD5JBHA7O18Y7RE4X4X29SUL0OVDSFT.png"  alt = "Photo number 7 of JB Applewhite&#x27;s Pressure Washing&#x27;s best work performing a null job"   loading="lazy" ></div>
                         
                                         
                             
                                   
-                            <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="open = true" ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/DBKIR2H323RPCCG1UPWL8QRMFQ9FJTZE55S1EJ70.png"  alt = "Photo number 8 of JB Applewhite&#x27;s Pressure Washing&#x27;s best work performing a null job"   loading="lazy" ></div>
+                            <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="open = true" ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/2TTFTXBHAQ93VJ2CAUO85PQJ6QYN6FYW7MU1141D.png"  alt = "Photo number 8 of JB Applewhite&#x27;s Pressure Washing&#x27;s best work performing a null job"   loading="lazy" ></div>
                         
                                         
                             
                                   
-                            <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="open = true" ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/9SV8ZXISSWU1131QWQ80JOE7TQKM9OSPEQ7NW9JR.png"  alt = "Photo number 9 of JB Applewhite&#x27;s Pressure Washing&#x27;s best work performing a null job"   loading="lazy" ></div>
+                            <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="open = true" ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/2HYTINJPTO4JHNH5HI0E825FYAWER111VSA8NCVW.png"  alt = "Photo number 9 of JB Applewhite&#x27;s Pressure Washing&#x27;s best work performing a null job"   loading="lazy" ></div>
+                        
+                                        
+                            
+                                  
+                            <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="open = true" ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/3UPSIWF32YH72F7RATUBWLALFX23O6HJ5OOIG4J1.png"  alt = "Photo number 10 of JB Applewhite&#x27;s Pressure Washing&#x27;s best work performing a Retaining Walls job"   loading="lazy" ></div>
+                        
+                                        
+                            
+                                  
+                            <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="open = true" ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/DBKIR2H323RPCCG1UPWL8QRMFQ9FJTZE55S1EJ70.png"  alt = "Photo number 11 of JB Applewhite&#x27;s Pressure Washing&#x27;s best work performing a null job"   loading="lazy" ></div>
+                        
+                                        
+                            
+                                  
+                            <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="open = true" ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/9SV8ZXISSWU1131QWQ80JOE7TQKM9OSPEQ7NW9JR.png"  alt = "Photo number 12 of JB Applewhite&#x27;s Pressure Washing&#x27;s best work performing a null job"   loading="lazy" ></div>
                         
                      
                                         
@@ -504,7 +519,7 @@
                         </button>
                         </div>
 
-                        <div class= "h-90 w-90 flex items-center justify-center overflow-hidden" x-data="{activeSlide: 0, slides: [   [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/YU15VG1A7YBBM5EBOC2U0E28C3SR05L92ERH8EOL.png', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/4ZT88QNDZCH3MXGP3TV14T3SYTDFE4E7VIMLD4JH.png', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/FG0UN5MU71H31JMOHV82HMAFJZ5JEAKG87CP4GKO.png', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/ZAA042ZTISD5JBHA7O18Y7RE4X4X29SUL0OVDSFT.png', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/2TTFTXBHAQ93VJ2CAUO85PQJ6QYN6FYW7MU1141D.png', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/2HYTINJPTO4JHNH5HI0E825FYAWER111VSA8NCVW.png', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/3UPSIWF32YH72F7RATUBWLALFX23O6HJ5OOIG4J1.png', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/DBKIR2H323RPCCG1UPWL8QRMFQ9FJTZE55S1EJ70.png', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/9SV8ZXISSWU1131QWQ80JOE7TQKM9OSPEQ7NW9JR.png', 'photo'],   ]}">
+                        <div class= "h-90 w-90 flex items-center justify-center overflow-hidden" x-data="{activeSlide: 0, slides: [   [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/AOHSE5ZHENCSCBBJCB8CKRELENUZ9D5OMFKHMPK2.png', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/EOIKP1IDYRCFD6ZA4Y3SL573ZIIV3L6V3MK993KI.png', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/XCJAT7WZQR4HFXJV82LQYYJ5MLIJ3D5GDOB0IJWX.png', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/YU15VG1A7YBBM5EBOC2U0E28C3SR05L92ERH8EOL.png', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/4ZT88QNDZCH3MXGP3TV14T3SYTDFE4E7VIMLD4JH.png', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/FG0UN5MU71H31JMOHV82HMAFJZ5JEAKG87CP4GKO.png', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/ZAA042ZTISD5JBHA7O18Y7RE4X4X29SUL0OVDSFT.png', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/2TTFTXBHAQ93VJ2CAUO85PQJ6QYN6FYW7MU1141D.png', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/2HYTINJPTO4JHNH5HI0E825FYAWER111VSA8NCVW.png', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/3UPSIWF32YH72F7RATUBWLALFX23O6HJ5OOIG4J1.png', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/DBKIR2H323RPCCG1UPWL8QRMFQ9FJTZE55S1EJ70.png', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/9SV8ZXISSWU1131QWQ80JOE7TQKM9OSPEQ7NW9JR.png', 'photo'],   ]}">
 
                             <template  x-for="(slide, index, collection) in slides" :key="index">
                                 <div class="h-full w-full flex items-center justify-center absolute">
@@ -590,6 +605,35 @@
                     <div class="flex items-center lg:items-start ">
                         
                         <div class="flex flex-col justify-start items-center lg:items-start ">
+                            <h3 class="font-bold  text-gray-200  ">Tommy Whitaker</h3>
+                            <h3 class=" text-gray-200 ">Anderson, SC  , Decks &amp; Patios  </h3>
+                            <div class="flex flex-row items-start ">
+                                
+                                
+                                <span class = " text-white "> <i class="fas fa-star"> </i> </span>
+                                
+                                <span class = " text-white "> <i class="fas fa-star"> </i> </span>
+                                
+                                <span class = " text-white "> <i class="fas fa-star"> </i> </span>
+                                
+                                <span class = " text-white "> <i class="fas fa-star"> </i> </span>
+                                
+                                <span class = " text-white "> <i class="fas fa-star"> </i> </span>
+                                
+                                
+                            </div>
+                            <blockquote class="mt-8 lg:pr-5 font-bold text-xl text-center lg:text-left   text-white ">"We use him every year and he always does a great job! He is very professional and trust worthy. Highly recommend for all your pressure washing needs."</blockquote>                           
+                        </div>
+                    </div>
+                    
+                    </div>
+
+                    
+            
+                    <div class="flex flex-col items-center lg:items-start justify-center w-full h-auto mb-12 lg:w-1/2">
+                    <div class="flex items-center lg:items-start ">
+                        
+                        <div class="flex flex-col justify-start items-center lg:items-start ">
                             <h3 class="font-bold  text-gray-200  ">Joshua Rexroad</h3>
                             <h3 class=" text-gray-200 ">Anderson, SC  , Roof Cleaning  </h3>
                             <div class="flex flex-row items-start ">
@@ -607,7 +651,7 @@
                                 
                                 
                             </div>
-                            <blockquote class="mt-8 lg:pr-5 font-bold text-xl text-center lg:text-left   text-white ">"Joshua worked us into his schedule on short notice.  They arrived on time as promised and did a great job.  They cleaned our windows, gutters, eaves and our front sidewalk.  The sidewalk looks like new! Highly recommended!<br>"</blockquote>                           
+                            <blockquote class="mt-8 lg:pr-5 font-bold text-xl text-center lg:text-left   text-white ">"Joshua worked us into his schedule on short notice.  They arrived on time as promised and did a great job.  They cleaned our windows, gutters, eaves and our front sidewalk.  The sidewalk looks like new! Highly recommended!"</blockquote>                           
                         </div>
                     </div>
                     
@@ -637,35 +681,6 @@
                                 
                             </div>
                             <blockquote class="mt-8 lg:pr-5 font-bold text-xl text-center lg:text-left   text-white ">"Joshua came out and pressure washed my house.   He did a fantastic job and was very courteous and did such a professional job.  I would highly recommend him!   He is very reasonable.  Give him a call for a free estimate."</blockquote>                           
-                        </div>
-                    </div>
-                    
-                    </div>
-
-                    
-            
-                    <div class="flex flex-col items-center lg:items-start justify-center w-full h-auto mb-12 lg:w-1/2">
-                    <div class="flex items-center lg:items-start ">
-                        
-                        <div class="flex flex-col justify-start items-center lg:items-start ">
-                            <h3 class="font-bold  text-gray-200  ">Tommy Whitaker</h3>
-                            <h3 class=" text-gray-200 ">Anderson, SC  , Decks &amp; Patios  </h3>
-                            <div class="flex flex-row items-start ">
-                                
-                                
-                                <span class = " text-white "> <i class="fas fa-star"> </i> </span>
-                                
-                                <span class = " text-white "> <i class="fas fa-star"> </i> </span>
-                                
-                                <span class = " text-white "> <i class="fas fa-star"> </i> </span>
-                                
-                                <span class = " text-white "> <i class="fas fa-star"> </i> </span>
-                                
-                                <span class = " text-white "> <i class="fas fa-star"> </i> </span>
-                                
-                                
-                            </div>
-                            <blockquote class="mt-8 lg:pr-5 font-bold text-xl text-center lg:text-left   text-white ">"We use him every year and he always does a great job! He is very professional and trust worthy. Highly recommend for all your pressure washing needs."</blockquote>                           
                         </div>
                     </div>
                     
